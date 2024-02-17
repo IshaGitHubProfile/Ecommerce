@@ -1,0 +1,33 @@
+.contactContainer {
+    background-image: linear-gradient(rgba(5, 8, 18, 0.7),rgba(4,9,30,0.7)),url('https://i.pinimg.com/564x/98/ea/02/98ea02059f2d51f8bb0e80299b3d3148.jpg');
+    background-position: center;
+    background-size: cover;
+    position: fixed;
+    height: 100vh;
+    place-items: center;
+    width: 100vw;
+    max-width: 100%;
+    color: white;
+}
+  
+  .mailBtn {
+    text-decoration: none;
+    transform: translateX(-100vw);
+    animation: mailBtnAnimation 2s forwards;
+  }
+  
+  .mailBtn > button {
+    text-decoration: none;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font: 200 2vmax "Roboto";
+    cursor: url("https://img.icons8.com/color/48/000000/edit--v2.png"), pointer;
+    padding: 2vmax;
+  }
+  
+  @keyframes mailBtnAnimation {
+    to {
+      transform: translateX(0);
+    }
+  }

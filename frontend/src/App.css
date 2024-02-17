@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    scroll-behavior: smooth;
+}
+body {
+    cursor: url("./images/cursor.png"), auto;
+}
+/* these selectors are used to style the spin buttons that appear on number input fields when you hover over or focus on them */
+input::-webkit-outer-spic-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.greenColor {
+    color: green !important;
+}
+
+.redColor {
+    color: red !important;
+}
