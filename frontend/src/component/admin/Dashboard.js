@@ -9,6 +9,9 @@ import { useSelector, useDispatch} from "react-redux";
 import { getAdminProduct } from "../../actions/productAction.js";
 import { getAllOrders } from "../../actions/orderAction.js";
 import { getAllUsers } from "../../actions/userAction.js";
+import { Chart as ChartJS, registerables } from 'chart.js';
+import { Chart } from 'react-chartjs-2'
+ChartJS.register(...registerables);
 
 const Dashboard =() => {
     const dispatch = useDispatch();
