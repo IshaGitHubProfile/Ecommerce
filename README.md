@@ -47,6 +47,6 @@ Install dependencies by running npm install in both the client and server direct
 
 Set up environment variables for sensitive information such as database credentials and Stripe API keys.
 
-Start the backend server by running npm start in the server directory.
+Start the backend server by running npm run dev in the server directory.
 
 Start the frontend development server by running npm start in the client directory.
