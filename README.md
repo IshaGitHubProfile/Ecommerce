@@ -2,7 +2,7 @@
 
 ## Overview
 
-Welcome to our Awesome E-Commerce Website project! This project aims to provide users with a seamless and intuitive online shopping experience. Our platform offers a wide range of products, secure user authentication, efficient shopping cart management, integrated payment functionality using Stripe, and comprehensive admin capabilities for product management.
+Welcome to Awesome E-Commerce Website project! This project aims to provide users with a seamless and intuitive online shopping experience. This platform offers a wide range of products, secure user authentication, efficient shopping cart management, integrated payment functionality using Stripe, and comprehensive admin capabilities for product management.
 
 ### Key Features
 Product Catalog: Browse and explore a diverse range of products conveniently categorized for easy navigation.
